@@ -43,6 +43,7 @@ function Chat({ roomData, username, setUsername }) {
     try {
       const encodedUsername = encodeURIComponent(username);
 
+      console.log("Connecting")
       const wsUrl = websocketURL + `/roomId=${roomId}?username=${encodedUsername}`;
       const socket = new WebSocket(wsUrl);
       socketRef.current = socket;
