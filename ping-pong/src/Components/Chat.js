@@ -53,6 +53,7 @@ function Chat({ roomData, username, setUsername }) {
         console.log('WebSocket connection established');
         setConnected(true);
         
+        console.log("connected")
         // Send join message with username
         // const joinMessage = {
         //   type: 'JOIN',
