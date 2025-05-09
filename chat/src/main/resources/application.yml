@@ -1,0 +1,7 @@
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+
+akka.license-key: 3CecWl2VbV38hkTgJR8fdB4EqTgBVlwTd8QqNN9IzVxJ8Qg5VHpFfeD48IfbCmzmYH5Fiuxkuzule2l3nJifI7nf4T4g1NR2zkNFywsJk0l2QcGojBk3rWWXn9WtSoSs2HJSKk640Be9D5EFVt4da2m7byCP4ynaC5Ek70e5PQ
+akka.license.licensee: Pingponger.com
