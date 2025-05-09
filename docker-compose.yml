@@ -3,7 +3,7 @@ version: '3.8'
 services:
   frontend:
     build:
-      context: ./Ping-Pong-FrontEnd
+      context: ./ping-pong
       dockerfile: Dockerfile
     volumes:
       - frontend_build:/app/build
@@ -16,7 +16,7 @@ services:
 
   backend:
     build:
-      context: ./Ping-Pong-Backend
+      context: ./chat
       dockerfile: Dockerfile
     expose:
       - "8080"
